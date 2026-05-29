@@ -1,3 +1,5 @@
+//number of digits in the entered number 
+
 #include<stdio.h>
 int main()
 {

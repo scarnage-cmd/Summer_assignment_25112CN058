@@ -1,4 +1,5 @@
 //GCD
+
 #include<stdio.h>
 int main()
 {

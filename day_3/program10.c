@@ -1,4 +1,5 @@
 //prime in range 
+
 #include<stdio.h>
 int main()
 {

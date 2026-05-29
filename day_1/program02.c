@@ -1,3 +1,5 @@
+//table of any given number 
+
 #include<stdio.h>
 int main()
 {
