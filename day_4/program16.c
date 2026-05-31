@@ -43,6 +43,6 @@ int main()
             printf("%d ", original);
         }
     }
-
+    
     return 0;
 }
