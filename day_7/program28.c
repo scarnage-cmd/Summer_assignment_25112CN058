@@ -2,16 +2,16 @@
 
 #include<stdio.h>
 
-int reverse_num = 0;
+int rev_num = 0;
 
-int rev(int x)
+int rev(int a)
 {
-    if(x == 0)
-        return reverse_num;
+    if(a == 0)
+        return rev_num;
 
-    reverse_num = reverse_num * 10 + x % 10;
+    rev_num = rev_num * 10 + a % 10;
 
-    return rev(x / 10);
+    return rev(a / 10);
 }
 
 int main()

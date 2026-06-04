@@ -1,13 +1,13 @@
-//factorial using fibonacci
+//factorial using recursion
 
 #include<stdio.h>
 
-int fact(int x)
+int fact(int a)
 {
-    if(x==1)
+    if(a==1)
     return 1;
 
-    return x*fact(x-1);
+    return a*fact(a-1);
 }
 
 int main()

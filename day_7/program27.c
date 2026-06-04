@@ -2,12 +2,12 @@
 
 #include<stdio.h>
 
-int sum(int x)
+int sum(int a)
 {
-    while(x<10)
-    return x;
+    while(a<10)
+    return a;
 
-    return x%10 + sum(x/10);
+    return a%10 + sum(a/10);
 }
 
 int main()

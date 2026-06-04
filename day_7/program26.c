@@ -2,15 +2,15 @@
 
 #include<stdio.h>
 
-int fib(int x)
+int fib(int a)
 {
-    if(x==0)
+    if(a==0)
     return 0;
  
-    if(x==1)
+    if(a==1)
     return 1;
 
-    return fib(x-1) + fib(x-2);
+    return fib(a-1) + fib(a-2);
 }
 
 int main()
